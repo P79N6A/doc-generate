@@ -1,0 +1,144 @@
+.inputSheet {
+    margin-bottom: 16px;
+}
+
+.inputSheet:last-child {
+    margin: 0;
+}
+
+.inputSheetChild {
+    margin-bottom: 6px;
+}
+
+.inputSheetChild:last-child {
+    margin: 0;
+}
+
+.formBorder {
+    border-color: #d8d8d8;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 5px;
+    padding: 10px 10px 10px 10px;
+    margin-bottom: 10px;
+}
+
+.formBorder:last-child {
+    margin-bottom: 0;
+}
+
+@font-face {
+    font-family: "Fira Code";
+    src: url("../fonts/FiraCode-Retina.ttf");
+}
+
+code span {
+    font-family: "Fira Code", "Courier New", Courier, monospace;
+}
+
+pre {
+    font-family: "Microsoft YaHei" !important;
+}
+
+.block pre[class*="language-"]:after {
+    content: none !important;
+}
+
+.block pre[class*="language-"]:before {
+    content: none !important;
+}
+
+.deemo {
+    margin: 36px 0;
+}
+
+.section {
+    padding: 10px 10px 10px 10px;
+}
+
+.sub {
+    color: #858585;
+}
+
+.shadow {
+    border: 1px solid #eee;
+    padding: 15px;
+    min-height: 60px;
+}
+
+.contentShadow {
+    border-color: #eee !important;
+    border-style: solid;
+    border-width: 0 1px 1px 1px !important;
+    border-radius: 0 !important;
+    width: 100% -2px;
+}
+
+.controllShadow {
+    border-color: #eee !important;
+    border-style: solid;
+    border-width: 0 1px 1px 1px !important;
+    border-radius: 0 !important;
+    width: 100%;
+}
+
+.text {
+    font-family: "Microsoft YaHei";
+    padding: 0 10px;
+    margin: 0 0 18px 0;
+}
+
+.block {
+    padding: 0 10px;
+    margin: 0 0 18px 0;
+}
+
+.table {
+    padding: 0 10px;
+    margin: 0 0 18px 0;
+}
+
+.textForTable {
+    padding: 0 10px;
+    margin: 0 0 18px 0;
+}
+
+.sub-section {
+    padding: 5px 5px 5px 5px;
+}
+
+.sub-sketch {
+    color: #858585;
+    padding: 0 5px 0 0;
+}
+
+.header-container {
+    height: 60px !important;
+    padding: 10px 20px !important;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1500;
+    background-color: #ffffff;
+}
+
+.border {
+    border-bottom: 1px solid #dcdfe6 !important;
+}
+
+.main-content {
+    top: 0;
+    margin-top: 60px !important;
+    margin-left: 250px !important;
+    display: block;
+    height: calc(100% - 60px);
+}
+
+.nav-menu {
+    position: fixed;
+    top: 60px;
+    bottom: 0;
+    background-color: #ffffff;
+    overflow: hidden;
+}
